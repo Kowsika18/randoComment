@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./index.js" defer></script>
+  <link rel="stylesheet" href="./login.css" type="text/css">
+  <title>Dashboard</title>
+</head>
+<body onload="_autoReader()">
+  <div class="dashboard-container">
+    <div class="content-container">
+      <div id="comments-section" class="comments-section">
+        <p>What would you like to share with world?</p>
+        <div class="input-segment">
+          <input id="userInput" type="text">
+          <button onclick="_commentAdder()" id="updateBtn">Submit</button>
+        </div>
+      </div>
+      <div class="update-comment-section">
+        <h2>Comments</h2>
+        <div id="update-segment" class="update-comment-segment">
+          <div id="update-section" class="update-section">
+            <!-- <div id="mail-id" class="mail-id">
+              shree@gmail.com
+            </div>
+            <div id="mail-comment" class="mail-comment">
+              Testing Comment
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

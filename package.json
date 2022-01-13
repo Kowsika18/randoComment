@@ -1,0 +1,16 @@
+{
+  "name": "randocomment",
+  "version": "1.0.0",
+  "description": "Random Connect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon app.js"
+  },
+  "author": "Kowsika",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
